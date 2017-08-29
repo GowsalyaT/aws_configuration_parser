@@ -1,6 +1,6 @@
 import configparser
 import os
-Header = input("Enter the header value ")
+Header = input("Enter the header value : ")
 
 config = configparser.ConfigParser()
 config.read("config.ini")
